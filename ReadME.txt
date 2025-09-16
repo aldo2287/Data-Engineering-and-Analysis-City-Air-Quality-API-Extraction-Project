@@ -1,7 +1,9 @@
-📊 Air Quality Bristol API ETL & Visualization Project
+Air Quality Bristol API ETL & Visualization Project
+
 A Python-based ETL pipeline that extracts air quality monitoring data from the official Bristol City Council API, processes and transforms the data, and loads the results into a PostgreSQL database using Apache Spark. The project also includes data normalization, geospatial coordinate handling, and visualization of monitoring locations across the city of Bristol.
 
-📌 Project Overview
+Project Overview
+
 This project demonstrates a complete data engineering and analytics workflow:
 
 Extract: Data is collected from an online public API in GeoJSON format.
@@ -18,7 +20,8 @@ Load: The processed data is loaded into a PostgreSQL database via Apache Spark.
 
 Visualize: Monitor site locations are visualized using Matplotlib on a normalized coordinate grid.
 
-🚀 Technologies Used
+Technologies Used
+
 Python 3.x
 
 GeoPandas
@@ -37,12 +40,14 @@ JDBC Connector
 
 Shapely
 
-📊 Data Source
+Data Source
+
 Source: Bristol City Council Air Quality API
 
 Format: GeoJSON containing monitoring station data for Bristol City.
 
-📂 Project Workflow
+Project Workflow
+
 API Call: Fetches live air quality data in GeoJSON format.
 
 Read & Parse GeoJSON: Loads data into a GeoPandas DataFrame.
@@ -65,10 +70,12 @@ Visualization: Plots normalized monitoring locations on a scatter plot.
 
 Summary Statistics: Counts unique monitoring locations in the dataset.
 
-📈 Example Visualization
+Example Visualization
+
 A scatter plot showing the distribution of air quality monitoring stations in Bristol, using normalized coordinate values.
 
-📦 How to Run
+How to Run
+
 Install required Python libraries:
 
 bash
@@ -79,7 +86,8 @@ Set up your PostgreSQL database and update the connection credentials in the scr
 
 Run the Python script to execute the complete ETL pipeline and generate the visual output.
 
-📑 Key Skills Demonstrated
+Key Skills Demonstrated
+
 API Integration & Data Extraction
 
 GeoJSON Data Handling
@@ -93,3 +101,4 @@ PostgreSQL Data Ingestion via JDBC
 Data Visualization
 
 End-to-End ETL Workflow
+
